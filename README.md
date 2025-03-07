@@ -33,7 +33,7 @@ To address the increasing security concerns in AI-driven applications, we implem
 
 ### Results
 
-* Education
+<details><summary>Education</summary>
 
 [First, Do No Harm](https://www.youtube.com/watch?v=BywchwByGLA&feature=youtu.be)
 
@@ -41,22 +41,25 @@ To address the increasing security concerns in AI-driven applications, we implem
 
 [R3 | Open-Weight Small MultiModal Finetune of LLaMA3](https://huggingface.co/qompass/r3)
 
-* Safety
+[Qompass Diver (https://github.com/qompassai/Diver)
+</details>
+<details><summary>Safety</summary>
+
+[Qompass Sojourn | Deploying models, unreal and otherwise (https://github.com/qompassai/sojourn)
 
 [Safety guardrails via NIST AI Risk Management Framework ](https://github.com/qompassai/Nautilus/blob/main/RedTeam/RedAI/NIST/AI_RMF_Playbook.pdf)
 
 [Dioptra | One NIST-endorsed tool in our purple evaluation process](https://github.com/qompassai/Nautilus/tree/main/RedTeam/RedAI/NIST/Qompass_Dioptra)
 
 [Kyber Odyssey- Post Quantum Cryptography to secure legacy software & AI deployment](https://github.com/qompassai/KO)
-
-* Use-Cases
-
-[AI Data Management Protocol Walkthrough](https://www.youtube.com/watch?v=T-XGHgaJIPU&t=234s)
+</details>
+<details>* <summary>Use-Cases</summary>
+ [AI Data Management Protocol Walkthrough](https://www.youtube.com/watch?v=T-XGHgaJIPU&t=234s)
 
 [Ollie | Small Multimodal Model with Web Search Tool Calling](https://www.youtube.com/watch?v=OvxrfwC3CKY&t=9s)
 
 [Vale | SMM for MultiLingual Patient Education](https://www.youtube.com/watch?v=q-2EL-ajNKc&t=8s)
-
+</details>
 
 
 <details>
