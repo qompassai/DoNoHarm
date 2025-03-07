@@ -48,14 +48,15 @@ To address the increasing security concerns in AI-driven applications, we implem
 
 [Kyber Odyssey- Post Quantum Cryptography to secure legacy software & AI deployment](https://github.com/qompassai/KO)
 </details>
+
 <details>* <summary>Use-Cases</summary>
- [AI Data Management Protocol Walkthrough](https://www.youtube.com/watch?v=T-XGHgaJIPU&t=234s)
+
+[AI Data Management Protocol Walkthrough](https://www.youtube.com/watch?v=T-XGHgaJIPU&t=234s)
 
 [Ollie | Small Multimodal Model with Web Search Tool Calling](https://www.youtube.com/watch?v=OvxrfwC3CKY&t=9s)
 
 [Vale | SMM for MultiLingual Patient Education](https://www.youtube.com/watch?v=q-2EL-ajNKc&t=8s)
 </details>
-
 
 <details>
 <summary>On Increasing SMM Efficiency</summary>
