@@ -6,14 +6,13 @@ Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
 <sup>2</sup>Elson S. Floyd College of Medicine, Spokane, WA
 # 2025 WSU Research Symposium
 
-[View Presentation](https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/qompassai/DoNoHarm/main/donoharm.pptx)
-
-
+**See the results for yourself by clicking the image below!**
 [![First, Do No Harm](dnhthumb.jpg)](https://www.youtube.com/watch?v=BywchwByGLA)
 
 
 
 ## Abstract
+[View Presentation](https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/qompassai/DoNoHarm/main/donoharm.pptx)
 ### Background
 Abstract
 
