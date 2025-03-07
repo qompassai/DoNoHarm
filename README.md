@@ -1,30 +1,39 @@
-# The Responsible Open Science Engines: Powering Minimally Invasive AI for Mentorship
-
+# First, Do No Harm: On Making AI Safe, Secure, and Trustworthy
 ## Authors
-Matthew A. Porter, BSc<sup>1</sup>, Ariana Rowshan, BA<sup>2</sup>, Marcheta J. Hill, DO<sup>3<sup>, Dawn L. Laporte, MD<sup>2</sup>, Amiethab A. Aiyer, MD<sup>2</sup>
+Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
 
 <sup>1</sup>Qompass AI, Spokane, WA  
-<sup>2</sup>The Johns Hopkins University School of Medicine, Department of Orthopaedic Surgery, Baltimore, MD
-<sup>3</sup>Arnot Ogden Medical Center Emergency Medicine Residency Program, Elmira, NY  
-# 2025 RJOS Poster
+<sup>2</sup>Elson S. Floyd College of Medicine, Spokane, WA
+# 2025 WSU Research Symposium
 
-[View Presentation](https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/qompassai/r4r/main/r4r.pptx)
+[View Presentation](https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/qompassai/DoNoHarm/main/donoharm.pptx)
 
 
 ## Abstract
 ### Background
-The rapid integration of generative artificial intelligence (genAI) into medical education has ushered in transformative changes, offering innovative tools and methodologies that enhance learning and practice. AI applications, such as adaptive learning platforms and virtual patient simulations, have become increasingly prevalent, providing personalized and immersive educational experiences. These advancements not only improve educational outcomes but also address critical needs across diverse learner populations. 
+Abstract
+
+The integration of generative artificial intelligence (genAI) into software ecosystems has led to rapid advancements in secure, efficient, and innovative applications. This transformative shift necessitates robust cryptographic safeguards to ensure trust, privacy, and reliability. In our project, "First, Do No Harm," we explore the intersection of post-quantum cryptography (PQC), Unreal Engine, and our custom Neovim implementation, "Diver," enhanced with rose.nvim—a plugin designed to facilitate AI model selection and secure interaction.
+
+By leveraging OpenSSL with post-quantum cryptographic algorithms, we ensure that AI communications remain resilient against future cryptographic threats. Our work emphasizes secure key exchange mechanisms and encryption methodologies that protect sensitive AI-driven interactions from adversarial compromise. To demonstrate the application of these technologies in immersive learning and development environments, we have integrated our secure AI framework into Unreal Engine, enabling the deployment of real-time, interactive AI-assisted simulations.
+
+Furthermore, "Diver" extends Neovim with rose.nvim, providing a streamlined interface for locally hosted AI models and secure web-based APIs. This setup allows developers and researchers to interact with AI tools in a controlled, privacy-preserving manner, reinforcing best practices in security and ethical AI deployment. Our approach ensures accessibility while prioritizing safety, equity, and transparency in AI-driven development.
+
+Through this initiative, we aim to set new standards for AI safety, security, and trustworthiness, ensuring that generative AI can be harnessed responsibly across diverse domains. By integrating cryptographic resilience, high-performance computing, and developer-friendly tools, our project offers a blueprint for the future of secure AI implementation.
+
 
 However, the swift adoption of AI technologies has highlighted significant ethical considerations, particularly concerning bias, transparency, and equitable access. In this context, our pilot study focused on harnessing genAI to enhance mentorship for aspiring orthopedic surgeons, especially those from marginalized backgrounds or institutions lacking dedicated orthopedic residencies. By developing a prototype model that delivers high-quality, personalized mentorship content, we strive to democratize access to essential resources, ensuring that all candidates have the opportunity to succeed, regardless of their circumstances.
 
 
 ### Methods
-In response to noticeably increasing cost of AI medical education, our study focuses on the deployment of quantized, small-scale AI models on-device. This approach aims to ensure accessibility and equity, particularly for underfunded institutions and learners from non-traditional, disabled, and underrepresented minority populations. We began by selecting open-source AI models renowned for their efficacy in educational contexts. To optimize these models for deployment on resource-constrained hardware, we employed quantization techniques, which reduce the precision of the model's parameters, thereby decreasing memory usage and computational demands without significantly compromising performance. Our deployment environment comprised consumer-grade Linux computers, reflecting hardware commonly available in industry and increasingly academia. We utilized standard Linux distributions, ensuring all software dependencies were met. To enhance computational efficiency, we leveraged NVIDIA's Compute Unified Device Architecture (CUDA 12.8) for on-device acceleration, enabling the models to utilize available GPU resources. The quantized models were integrated into the system in transient sandboxed environments as well as via hard-coded web-based application program interfaces (APIs)  to streamline deployment and ensure consistency across various infrastructures.
+To address the increasing security concerns in AI-driven applications, we implemented a robust methodology centered on cryptographic integrity, real-time interactivity, and developer accessibility. Our approach prioritizes efficiency without compromising security, ensuring that AI models are deployed safely and effective. For performance optimization, we serve AI models capable of operating on a single consumer grade GPU operating on Arch Linux with CUDA 12.8, TensorRT 10.8, and Pytorch 2.6. We began by integrating OpenSSL with post-quantum cryptographic (PQC) algorithms, selecting those with demonstrated resilience against both classical and quantum threats. Our cryptographic framework ensures that AI model interactions—whether hosted locally or via secure APIs—remain protected through advanced key exchange protocols and end-to-end encryption techniques. Our custom Neovim implementation, "Diver," incorporates rose.nvim as an AI model interface, providing a seamless experience for researchers and developers. The plugin enables users to select AI models locally or interact with them via secure web-based APIs. All web interactions are secured using PQC-backed TLS encryption to mitigate emerging cryptographic threats. The models operate within sandboxed environments, ensuring secure execution and isolation from the host system. By structuring AI deployment within controlled, cryptographically secure ecosystems, we aim to establish a foundation for AI trustworthiness. Our methodology underscores the importance of privacy, security, and accessibility in AI-driven software development, ensuring that innovations remain both powerful and responsible.
 
 
 ### Results
 
 * Education
+
+[First, Do No Harm](https://www.youtube.com/watch?v=BywchwByGLA&feature=youtu.be)
 
 [Equitable Open AI Curriculum](https://github.com/qompassai/Equator)
 
@@ -48,7 +57,8 @@ In response to noticeably increasing cost of AI medical education, our study foc
 
 
 
-* Increasing SMM Efficiency
+<details>
+<summary>On Increasing SMM Efficiency</summary>
 
 TLDR: Using consumer-grade hardware to improve small Open Neural Network Exchange (ONNX) video inference models:
 
@@ -87,58 +97,10 @@ Where:
 - --timeRefit enables timing for the engine refitting process.
 ```
 **Run with TensorRT 10.8, CUDA 12.8, nvidia-open-dkms on Arch Linux-Zen 6.13-4-1 x86_64**
-
+</details>
 
 # FAQ
 
-### Q: How would you describe AI to someone who's "not technical"?
-### A: We dislike identifying people as technical or not technical. This sort of language is othering and unkind. AI is like cake, not all cakes are created equal, but they can all be great in their own ways. Yann LeCun, Turing Award winner, Meta's Chief AI Scientist and a professor at NYU simplified the complex world of AI by comparing it to a layered cake. We endeavor to do the same :)
-
-## **AI As Cake From Top to Bottom**
-
-**Referencing the left most image in the poster**
-
-[View Presentation](https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/qompassai/r4r/main/r4r.pptx)
-
-### Governance & Auditability (The Decorative Frosting)
-- **Transparent Decision Logs**: Like a recipe book recording each step of the baking process
-- **Regulatory Compliance**: Following food safety standards and baking regulations
-- **Explainability**: Like listing ingredients and nutritional information on the box
-
-### Operational Independence (The Master Baker's Expertise)
-- **Self-Learning**: Like perfecting recipes through practice and feedback
-- **Autonomous Decisions**: Knowing when the cake is done without using a timer
-- **Scalability**: Adjusting recipe portions for different serving sizes
-
-### External Interactions (The Kitchen Equipment)
-- **API Integrations**: Like connecting different appliances in a professional kitchen
-- **Automated Workflows**: Similar to using a stand mixer for consistent results
-- **Real-Time Decision Making**: Like adjusting oven temperature while baking
-
-### Interaction Interface (The Cake Filling)
-- **Multi-Modal Support**: Like different layers of filling - cream, fruit, and chocolate
-- **User Input Processing**: Like following customer specifications for custom cakes
-- **Personalization**: Adjusting flavors and decorations to individual taste
-
-### Ethics & Safety (The Quality Control)
-- **Privacy Protection**: Like keeping secret recipes safe
-- **Bias Detection**: Testing for balanced flavors and proper texture
-- **Harm Prevention**: Ensuring ingredients are fresh and allergen-free
-
-### Knowledge Base (The Recipe Collection)
-- **Contextualization & Retrieval**: Like knowing which recipes work for different occasions
-- **Structured & Unstructured Data**: Organized recipes and cooking intuition
-- **Domain-Specific Enrichment**: Specializing in specific types of baking
-
-### Retrieval Augmented Generation (RAG) (The Essential Ingredients)
-- **Fact-Checking**: Like measuring ingredients precisely for consistent results
-
-### The Model (LLM/SMM/SLM/LMM) (The Basic Cake Batter)
-- **Reasoning & Adaptability**: Like how basic batter can become different cakes
-- **Generative Capabilities**: Transforming raw ingredients into finished cakes
-- **Real-Time Data Retrieval**: Gathering fresh ingredients as needed
-- **Contextual Augmentation**: Adding flavors and textures to enhance the base
-- **Training & Fine-Tuning**: Perfecting the recipe through multiple iterations
 
 ### Q: How do you mitigate against bias?
 
@@ -196,12 +158,6 @@ Where:
 - $V$ represents the Value matrix
 - $d_k$ is the dimension of the key vectors
 - $\text{softmax}(\cdot)$ normalizes scores to sum to 1
-
-### How is it $0 cost?
-
-* We self-host models and we thoughtfully implement open source software and write our own code. All hardware was already purchased prior to the grant being awarded.
-* We public-source the code-bases under dual-license at no cost to learners or educators not intending on enterprise-grade commercial use. We make $0 in public-sourcing our code.
-* We make efficient use of our free memberships to the NVIDIA, Meta, Groq, and Github developer programs
 
 ### Q: Do I have to buy a Linux computer to use this? I don't have time for that!
 ### A: No. You can run Linux and/or the tools we share alongside your existing operating system:
