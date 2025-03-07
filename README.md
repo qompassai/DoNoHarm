@@ -36,11 +36,11 @@ To address the increasing security concerns in AI-driven applications, we implem
 
 [R3 | Open-Weight Small MultiModal Finetune of LLaMA3](https://huggingface.co/qompass/r3)
 
-[Qompass Diver (https://github.com/qompassai/Diver)
+[Qompass Diver](https://github.com/qompassai/Diver)
 </details>
 <details><summary>Safety</summary>
 
-[Qompass Sojourn | Deploying models, unreal and otherwise (https://github.com/qompassai/sojourn)
+[Qompass Sojourn | Deploying models, unreal and otherwise](https://github.com/qompassai/sojourn)
 
 [Safety guardrails via NIST AI Risk Management Framework ](https://github.com/qompassai/Nautilus/blob/main/RedTeam/RedAI/NIST/AI_RMF_Playbook.pdf)
 
