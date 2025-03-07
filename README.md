@@ -12,7 +12,8 @@ Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
 
 
 ## Abstract
-<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/qompassai/donoharm/main/donoharm.pptx" width="700" height="400" frameborder="0"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1v[...long string of characters...]/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 ### Background
 Abstract
