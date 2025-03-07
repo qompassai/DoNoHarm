@@ -12,7 +12,7 @@ Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
 
 
 ## Abstract
-[View Presentation](https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/qompassai/donoharm/main/donoharm.pptx)
+[View submitted poster](https://www.researchgate.net/publication/389636124_First_Do_No_Harm_On_Making_AI_Safe_Secure_and_Trustworthy)
 ### Background
 Abstract
 
