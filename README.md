@@ -9,9 +9,9 @@ Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
 [View Presentation](https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/qompassai/DoNoHarm/main/donoharm.pptx)
 
 
-<a href="https://www.youtube.com/watch?v=BywchwByGLA">
-  <img src="http://img.youtube.com/vi/BywchwByGLA/dnhthumb.jpg" alt="First, Do No Harm" width="320">
-</a>
+[![First, Do No Harm](dnhthumb.jpg)](https://www.youtube.com/watch?v=BywchwByGLA)
+
+
 
 ## Abstract
 ### Background
