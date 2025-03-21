@@ -5,7 +5,8 @@ Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
 <sup>1</sup>Qompass AI, Spokane, WA  
 <sup>2</sup>Elson S. Floyd College of Medicine, Spokane, WA
 
-**See the results for yourself by clicking the image below!**
+**See the progress for yourself by clicking the image below!**
+
 [![First, Do No Harm](dnhthumb.jpg)](https://www.youtube.com/watch?v=BywchwByGLA)
 
 
