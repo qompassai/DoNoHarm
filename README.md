@@ -4,7 +4,6 @@ Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
 
 <sup>1</sup>Qompass AI, Spokane, WA  
 <sup>2</sup>Elson S. Floyd College of Medicine, Spokane, WA
-# 2025 WSU Research Symposium
 
 **See the results for yourself by clicking the image below!**
 [![First, Do No Harm](dnhthumb.jpg)](https://www.youtube.com/watch?v=BywchwByGLA)
@@ -12,7 +11,7 @@ Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
 
 
 ## Abstract
-[View submitted poster](https://www.researchgate.net/publication/389636124_First_Do_No_Harm_On_Making_AI_Safe_Secure_and_Trustworthy)
+[Poster Preview](https://www.researchgate.net/publication/389636124_First_Do_No_Harm_On_Making_AI_Safe_Secure_and_Trustworthy)
 ### Background
 Abstract
 
