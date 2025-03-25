@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/944343114.svg)](https://doi.org/10.5281/zenodo.15062577)
+
 # First, Do No Harm: On Making AI Safe, Secure, and Trustworthy
 ## Authors
 Matthew A. Porter, BSc<sup>1</sup>, Henry Mroch, MD<sup>2</sup>
