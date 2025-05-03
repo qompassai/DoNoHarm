@@ -1,3 +1,6 @@
+
+![Repository Views](https://komarev.com/ghpvc/?username=qompassai-DoNoHarm)
+
 [![DOI](https://zenodo.org/badge/944343114.svg)](https://doi.org/10.5281/zenodo.15062577)
 
 # First, Do No Harm: On Making AI Safe, Secure, and Trustworthy
